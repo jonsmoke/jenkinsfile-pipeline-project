@@ -8,14 +8,14 @@ pipeline {
             }
         }
 
-        stage('test') {
-            steps {
-                echo 'Clarusway_Way to Reinvent Yourself'
-                sh 'whoami'
-                sh 'pwd'
-                sh 'ls'
-            }
-        }
+        // stage('test') {
+        //     steps {
+        //         echo 'Clarusway_Way to Reinvent Yourself'
+        //         sh 'whoami'
+        //         sh 'pwd'
+        //         sh 'ls'
+        //     }
+        // }
 
         stage('run') {
             steps {
